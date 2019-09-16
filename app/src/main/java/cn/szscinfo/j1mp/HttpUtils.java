@@ -6,6 +6,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
+/**
+ *
+ */
 public class HttpUtils {
 
     public static String readMyInputStream(InputStream is) {
