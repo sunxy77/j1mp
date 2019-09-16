@@ -196,7 +196,7 @@ public class UpdateManager {
         StringBuffer sbf = new StringBuffer();
 
         try {
-            String path = "http://oa.j1mp.cn/update.txt";
+            String path = "http://oa.j1mp.cn/j1/admin/info.php?do=App.ajax_latest";
             URL url = new URL(path);
 
             System.out.println(url.toString());
